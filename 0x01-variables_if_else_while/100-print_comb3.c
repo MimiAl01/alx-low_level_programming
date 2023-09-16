@@ -9,7 +9,7 @@
 int main(void)
 {
 int p, d;
-for (p = '0'; p < '8'; p++)
+for (p = '0'; p < '9'; p++)
 {
 for (d = p + 1; d <= '9'; d++)
 {
@@ -22,6 +22,5 @@ putchar(' ');
 }
 }
 }
-putchar('\n');
 return (0);
 }
